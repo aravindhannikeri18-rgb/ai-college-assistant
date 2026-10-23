@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI COLLEGE ASSISTANT – KLE Society’s College of BCA, Gokak</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="app-container nav-wrapper">
+      <a href="#home" class="nav-brand">
+        <div class="brand-icon">🎓</div>
+        <div class="brand-text">
+          <h2>AI College Assistant</h2>
+          <p>KLE Society’s College of BCA, Gokak</p>
+        </div>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About College</a></li>
+        <li><a href="#bca">BCA 1st Semester</a></li>
+        <li><a href="#staff">Staff & Faculty</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#chatbot">AI Assistant</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button id="wake-word-btn" class="chip-btn" style="background:#e0f2fe; color:#0284c7; border:none;">
+          Hey Dude: Turn On 🎙️
+        </button>
+        <a href="#chatbot" class="btn-talk-ai">
+          <span>Talk to AI</span> ⚡
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Container -->
+  <main class="app-container">
+
+    <!-- HOME / HERO SECTION -->
+    <section id="home" class="hero-section">
+      <div class="hero-content">
+        <div class="hero-tag">✨ Voice-Powered College Assistant</div>
+        <h1 class="hero-title">Welcome to AI College Assistant</h1>
+        <p class="hero-subtitle">Your smart voice-powered college information assistant for KLE Society’s College of BCA, Gokak.</p>
+        
+        <div class="hero-cta-group">
+          <a href="#chatbot" class="btn-primary">Start Chatting</a>
+          <button id="hero-talk-ai-btn" class="btn-secondary">Talk to AI 🎙️</button>
+        </div>
+      </div>
+
+      <div class="hero-avatar-box">
+        <div class="hero-avatar-circle">
+          <svg viewBox="0 0 160 160" width="220" height="220" fill="none">
+            <rect x="32" y="56" width="96" height="68" rx="26" fill="#FFFFFF" stroke="#93C5FD" stroke-width="3"/>
+            <rect x="44" y="68" width="72" height="42" rx="16" fill="#0B192C"/>
+            <circle cx="64" cy="88" r="8" fill="#38BDF8"/>
+            <circle cx="96" cy="88" r="8" fill="#38BDF8"/>
+            <path d="M 74 98 Q 80 104 86 98" stroke="#38BDF8" stroke-width="3" stroke-linecap="round"/>
+            <path d="M 80 20 L 138 40 L 80 54 L 22 40 Z" fill="#1E3A8A"/>
+            <circle cx="80" cy="38" r="4" fill="#FBBF24"/>
+            <path d="M 80 38 Q 112 40 122 58" stroke="#F59E0B" stroke-width="2.5" fill="none"/>
+            <circle cx="122" cy="62" r="3" fill="#D97706"/>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT COLLEGE SECTION -->
+    <section id="about" style="padding: 50px 0;">
+      <h2 class="section-title">About College</h2>
+      <p class="section-desc">KLE Society’s College of BCA, Gokak</p>
+
+      <div class="cards-grid">
+        <div class="card">
+          <h3>🏛️ College Name</h3>
+          <p style="font-size: 1.1rem; font-weight:700; color:var(--primary-blue); margin-top:8px;">KLE Society’s College of BCA, Gokak</p>
+          <p style="color:var(--text-muted); font-size:0.9rem; margin-top:4px;">Empowering Education for a Better Tomorrow</p>
+        </div>
+
+        <div class="card">
+          <h3>📍 Location</h3>
+          <p style="font-size: 1.1rem; font-weight:700; margin-top:8px;">Gokak, near Bellikata, in front</p>
+          <p style="color:var(--text-muted); font-size:0.9rem; margin-top:4px;">Karnataka, India</p>
+        </div>
+
+        <div class="card">
+          <h3>👨‍💼 Principal</h3>
+          <p style="font-size: 1.1rem; font-weight:700; margin-top:8px;">Mr. Prashant Kivati</p>
+          <p style="color:var(--text-muted); font-size:0.9rem; margin-top:4px;">Head of the Institution</p>
+        </div>
+
+        <div class="card">
+          <h3>👨‍🏫 College Coordinator</h3>
+          <p style="font-size: 1.1rem; font-weight:700; margin-top:8px;">Mr. Malakajan Bagavan</p>
+          <p style="color:var(--text-muted); font-size:0.9rem; margin-top:4px;">Academic & Student Affairs</p>
+        </div>
+
+        <div class="card">
+          <h3>👥 Number of Staff</h3>
+          <p style="font-size: 2.2rem; font-weight:800; color:var(--accent-purple); margin-top:4px;">6</p>
+          <p style="color:var(--text-muted); font-size:0.9rem;">Dedicated faculty & staff members</p>
+        </div>
+
+        <div class="card">
+          <h3>🎓 1st Semester BCA Students</h3>
+          <p style="font-size: 2.2rem; font-weight:800; color:var(--primary-blue); margin-top:4px;">180</p>
+          <p style="color:var(--text-muted); font-size:0.9rem;">Enrolled bright tech minds</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- BCA 1ST SEMESTER SECTION -->
+    <section id="bca" style="padding: 50px 0;">
+      <h2 class="section-title">BCA 1st Semester</h2>
+      <p class="section-desc"><strong>BCA = Bachelor of Computer Applications</strong></p>
+
+      <div class="cards-grid">
+        <div class="subject-card">
+          <div class="subject-num">1</div>
+          <h3>Kannada</h3>
+          <p style="color:var(--text-muted); font-size:0.85rem; margin-top:6px;">Functional language, literature and cultural heritage.</p>
+        </div>
+
+        <div class="subject-card">
+          <div class="subject-num">2</div>
+          <h3>English</h3>
+          <p style="color:var(--text-muted); font-size:0.85rem; margin-top:6px;">Professional communication, writing, and presentation skills.</p>
+        </div>
+
+        <div class="subject-card">
+          <div class="subject-num">3</div>
+          <h3>C Programming</h3>
+          <p style="color:var(--text-muted); font-size:0.85rem; margin-top:6px;">Programming logic, pointers, structures and hands-on coding lab.</p>
+        </div>
+
+        <div class="subject-card">
+          <div class="subject-num">4</div>
+          <h3>DBMS</h3>
+          <p style="color:var(--text-muted); font-size:0.85rem; margin-top:6px;">Database Management System, SQL queries, ER modeling and ACID properties.</p>
+        </div>
+
+        <div class="subject-card">
+          <div class="subject-num">5</div>
+          <h3>Mathematics-I</h3>
+          <p style="color:var(--text-muted); font-size:0.85rem; margin-top:6px;">Foundations of matrices, calculus, discrete math and logic.</p>
+        </div>
+
+        <div class="subject-card">
+          <div class="subject-num">6</div>
+          <h3>Indian Constitution</h3>
+          <p style="color:var(--text-muted); font-size:0.85rem; margin-top:6px;">Fundamental rights, duties, directive principles, and governance.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- MAIN AI CHATBOT & VOICE INTERFACE SECTION -->
+    <section id="chatbot" style="padding: 40px 0;">
+      <div style="text-align: center; margin-bottom: 24px;">
+        <span class="hero-tag">🤖 Hey Dude AI Assistant</span>
+        <h2 class="section-title">Ask Hey Dude Anything</h2>
+        <p class="section-desc">Type your questions or speak using the microphone. Say "Hey Dude" for voice trigger!</p>
+        <p id="mic-status-text" style="color:var(--primary-blue); font-weight:700; font-size:0.9rem;">Tap to Talk</p>
+      </div>
+
+      <div class="chatbot-container">
+        <!-- Chat Header -->
+        <div class="chat-header">
+          <div style="display:flex; align-items:center; gap:12px;">
+            <div style="width:36px; height:36px; border-radius:50%; background:#fff; color:#2563eb; display:flex; align-items:center; justify-content:center; font-weight:800;">🤖</div>
+            <div>
+              <h4 style="color:#fff; font-size:1rem; margin:0;">Hey Dude AI</h4>
+              <p style="color:#bfdbfe; font-size:0.75rem; margin:0;">Online • College Knowledge Engine</p>
+            </div>
+          </div>
+          <div>
+            <span style="background:rgba(255,255,255,0.2); padding:4px 10px; border-radius:50px; font-size:0.75rem; font-weight:600;">Voice Enabled</span>
+          </div>
+        </div>
+
+        <!-- Chat Messages Box -->
+        <div id="chat-messages-box" class="chat-messages">
+          <div class="msg-bubble msg-ai">
+            Hello! I am <strong>Hey Dude</strong>, your smart AI College Assistant for <strong>KLE Society’s College of BCA, Gokak</strong>. You can ask me about our principal, coordinator, subjects, staff, students, location, or contact number!
+          </div>
+        </div>
+
+        <!-- Suggested Questions Row -->
+        <div class="chat-suggestions">
+          <button class="chip-btn">Who is your college principal?</button>
+          <button class="chip-btn">Who is the college coordinator?</button>
+          <button class="chip-btn">How many staff members are there?</button>
+          <button class="chip-btn">What is the full form of BCA?</button>
+          <button class="chip-btn">How many students are in 1st semester BCA?</button>
+          <button class="chip-btn">What are the BCA 1st semester subjects?</button>
+          <button class="chip-btn">What is the college contact number?</button>
+          <button class="chip-btn">Where is the college located?</button>
+        </div>
+
+        <!-- Input Bar -->
+        <form id="chat-form" class="chat-input-bar">
+          <input type="text" id="chat-input-field" class="chat-input" placeholder="Type your college question here..." autocomplete="off">
+          <button type="button" id="chat-mic-btn" class="mic-btn-round" title="Speak question">🎤</button>
+          <button type="submit" class="send-btn-round" title="Send question">➤</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" style="padding: 40px 0;">
+      <h2 class="section-title">Contact Us</h2>
+      <p class="section-desc">Get in touch with KLE Society’s College of BCA, Gokak</p>
+
+      <div class="cards-grid">
+        <div class="card" style="text-align: center;">
+          <h3 style="color:var(--primary-blue);">📞 Phone Helpline</h3>
+          <p style="font-size:1.3rem; font-weight:800; margin-top:10px;">101-334-433</p>
+          <p style="color:var(--text-muted); font-size:0.85rem; margin-top:4px;">Monday to Saturday (9:00 AM – 4:30 PM)</p>
+        </div>
+
+        <div class="card" style="text-align: center;">
+          <h3 style="color:var(--accent-purple);">📍 Campus Location</h3>
+          <p style="font-size:1.1rem; font-weight:700; margin-top:10px;">Gokak, near Bellikata, in front</p>
+          <p style="color:var(--text-muted); font-size:0.85rem; margin-top:4px;">Belagavi District, Karnataka</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="app-container">
+      <div class="footer-content">
+        <div>
+          <h3 style="color:#fff; margin-bottom:12px;">KLE Society’s College of BCA, Gokak</h3>
+          <p style="font-size:0.9rem; line-height:1.6;">Empowering youth with cutting-edge Bachelor of Computer Applications education, practical software engineering skills, and AI innovations.</p>
+        </div>
+        <div>
+          <h4 style="color:#fff; margin-bottom:12px;">Quick Links</h4>
+          <p style="font-size:0.85rem; margin-bottom:6px;"><a href="#home" style="color:#94a3b8; text-decoration:none;">Home</a></p>
+          <p style="font-size:0.85rem; margin-bottom:6px;"><a href="#about" style="color:#94a3b8; text-decoration:none;">About College</a></p>
+          <p style="font-size:0.85rem; margin-bottom:6px;"><a href="#bca" style="color:#94a3b8; text-decoration:none;">BCA Subjects</a></p>
+          <p style="font-size:0.85rem;"><a href="#chatbot" style="color:#94a3b8; text-decoration:none;">AI Assistant</a></p>
+        </div>
+        <div>
+          <h4 style="color:#fff; margin-bottom:12px;">College Info</h4>
+          <p style="font-size:0.85rem; margin-bottom:6px;">📍 Gokak, near Bellikata, in front</p>
+          <p style="font-size:0.85rem; margin-bottom:6px;">📞 101-334-433</p>
+          <p style="font-size:0.85rem;">🎓 180 Students | 6 Staff</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 KLE Society’s College of BCA, Gokak • AI College Assistant • Built for BCA Project Expo</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

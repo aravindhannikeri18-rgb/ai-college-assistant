@@ -1,0 +1,6 @@
+{
+  "name": "AI College Assistant – KLE Society’s College of BCA, Gokak",
+  "description": "Modern voice-enabled AI assistant and college information portal for KLE Society's College of BCA, Gokak featuring Hey Dude voice assistant, syllabus, staff, and campus details.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
